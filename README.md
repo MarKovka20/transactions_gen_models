@@ -41,6 +41,8 @@ We use a hydra-based experiment configuration structure. To assemble the set-up 
 ## Models with external context
 In the paper, we propose a representation learning model for transactions that accounts for the external context information of other users. It uses the pretrained CoLES model as a backbone. Please look to the `notebooks/` directory to reproduce the experiments with these models. The `config/pooling_*_validation.yaml` files specify the corresponding configuration files.
 
+For the thesis all the experiments are done throught the `notebooks/pooling_rethinking.ipynb`. These experiments include more types of aggregation in comparison with paper and use not only CoLES but also AR model as a backbone. 
+
 ## Results summary
 We compare representation learning approaches of 3 classes: contrastive SSL (CoLES, TS2Vec), generative SSL (AE, MLM, AR), and Temporal Point processing models (COTIC, NHP, A-NHP). Note that these generative SSL models have been adapted to the transactional data domain for the first time. The approaches are validated in terms of their embeddings' global and local properties. See the paper for details on validation procedures and their motivation. The key findings are highlighted here.
 
@@ -58,7 +60,13 @@ The similar Figure below presents how existing representation learning approache
   <img src="https://github.com/romanenkova95/transactions_gen_models/assets/60795929/2a899520-dac3-4165-a6b9-eeab31c389da" width="750">
 </p>
 
+More results for models with external information can be found in thesis.
+
 ## Citation
 If you find this repository useful, please feel free to star it and cite our paper.
 
 TODO: Add citation when the paper is published.
+
+Paper at arXiv: [https://arxiv.org/pdf/2404.02047](https://arxiv.org/pdf/2404.02047)
+
+Thesis: [\]()
