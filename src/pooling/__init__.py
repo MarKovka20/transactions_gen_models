@@ -1,2 +1,2 @@
 """Init module."""
-from .pooling_model import PoolingModel
+from .new_pooling_model import PoolingModel
