@@ -72,4 +72,4 @@ Paper at arXiv: [https://arxiv.org/pdf/2404.02047](https://arxiv.org/pdf/2404.02
 ## Thesis documents
 Thesis: [ `thesis.pdf`](https://github.com/MarKovka20/transactions_gen_models/blob/main/thesis.pdf)
 
-Presentation: [`Kovaleva_Maria_predefence_for_MIPT.pdf`](https://github.com/MarKovka20/transactions_gen_models/blob/main/Kovaleva_Maria_predefence_for_MIPT.pdf)
+Presentation: [`Kovaleva_Maria_thesis_presentation_en.pdf`](https://github.com/MarKovka20/transactions_gen_models/blob/main/Kovaleva_Maria_thesis_presentation_en.pdf)
